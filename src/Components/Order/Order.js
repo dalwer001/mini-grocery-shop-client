@@ -61,7 +61,7 @@ const Order = () => {
     return (
         <div style={{ textAlign: 'center' }} className="container">
             <h1>Order Review</h1>
-
+            <hr/>
             <div style={{ textAlign: 'center' }}>
                 <MuiPickersUtilsProvider utils={DateFnsUtils}>
                     <Grid container justify="space-around">
