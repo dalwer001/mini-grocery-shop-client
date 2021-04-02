@@ -8,8 +8,8 @@ const Side = props => {
 
 
     return (
-        <>
-            <Nav className="col-md-3 col-sm-12 d-md-block bg-secondary sidebar ">
+        <div>
+            <Nav className="col-md-3  d-md-block bg-secondary sidebar ">
                 <div className="sidebar-sticky"></div>
                 <Nav.Item className="p-3  m-4 ">
                     <Link to="/manageProduct" className="text-white  text-decoration-none ">Manage Product</Link>
@@ -18,7 +18,7 @@ const Side = props => {
                     <Link to="/addProduct"  className="text-white  text-decoration-none ">Add Product</Link>
                 </Nav.Item>
             </Nav>
-        </>
+        </div>
     );
 };
 const Sidebar = withRouter(Side);
