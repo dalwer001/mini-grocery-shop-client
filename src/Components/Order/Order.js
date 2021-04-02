@@ -112,7 +112,7 @@ const Order = () => {
                     <button className="btn btn-danger">Shop More</button>
                 </Link>
                 <Link to="/orderPreview">
-                    <button className="btn btn-success">Cart View</button>
+                    <button className="btn btn-success">View Cart</button>
                 </Link>
             </div>
 
