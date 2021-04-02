@@ -10,7 +10,6 @@ const AddProduct = () => {
     const { register, handleSubmit, watch, errors } = useForm();
     const [imageURL, setIMageURL] = useState(null);
 
-
     const onSubmit = (data,e) => {
         const productData = {
             name: data.name,
