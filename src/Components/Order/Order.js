@@ -111,7 +111,7 @@ const Order = () => {
                 <Link to="/" className="m-3">
                     <button className="btn btn-danger">Shop More</button>
                 </Link>
-                <Link to="/orderPreview">
+                <Link to="/cart">
                     <button className="btn btn-success">View Cart</button>
                 </Link>
             </div>

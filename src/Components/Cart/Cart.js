@@ -4,7 +4,7 @@ import { UserContext } from '../../App';
 
 
 
-const OrdersPreview = () => {
+const Cart = () => {
 
     const [orders, setOrders] = useState([]);
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -55,4 +55,4 @@ const OrdersPreview = () => {
 
 
 
-export default OrdersPreview;
+export default Cart;

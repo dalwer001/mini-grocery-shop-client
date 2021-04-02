@@ -7,8 +7,7 @@ toast.configure()
 
 const ManageProduct = () => {
     const [products, setProducts] = useState([]);
-
-
+    
     useEffect(() => {
         fetch('https://lychee-tart-04103.herokuapp.com/products')
             .then(res => res.json())

@@ -36,7 +36,7 @@ const Header = () => {
                 <Navbar.Collapse className="justify-content-end ">
                     <Link to="/home" className="nav-link text-white">Home</Link>
                     <Link to="/orders" className="nav-link text-white">Orders</Link>
-                    <Link to="/orderPreview" className="nav-link text-white">Cart</Link>
+                    <Link to="/cart" className="nav-link text-white">Cart</Link>
                     <Link to="/admin" className="nav-link text-white">Admin</Link>
                     <Link to="/login" className="nav-link text-white btn btn-success"onClick={handleSignOut}>{loggedInUser.email?'Logout':'Login'}</Link>
                     <Link to="#" className="nav-link active text-danger">{loggedInUser.name||loggedInUser.email}</Link>

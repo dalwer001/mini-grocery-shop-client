@@ -17,9 +17,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import Admin from './Components/Admin/Admin';
 import Order from './Components/Order/Order';
-import OrdersPreview from './Components/OrdersPreview/OrdersPreview';
+import OrdersPreview from './Components/Cart/Cart';
 import Greetings from './Components/Greetings/Greetings';
 import TakeProduct from './Components/TakeProduct/TakeProduct';
+import Cart from './Components/Cart/Cart';
 
 export const UserContext = createContext();
 
@@ -54,8 +55,8 @@ function App(props) {
           <PrivateRoute path="/orders">
             <TakeProduct></TakeProduct>
           </PrivateRoute>
-          <PrivateRoute path="/orderPreview">
-            <OrdersPreview></OrdersPreview>
+          <PrivateRoute path="/cart">
+            <Cart></Cart>
           </PrivateRoute>
           <PrivateRoute path="/greetings">
             <Greetings></Greetings>
