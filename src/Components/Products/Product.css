@@ -1,0 +1,10 @@
+.button-up{
+    transition: .25s all ease-in-out;
+}
+.button-up:hover{
+    transform: scale(1.2);
+}
+
+.shade{
+    box-shadow: 6px 6px 8px  rgba(43, 4, 75, 0.397);
+}
