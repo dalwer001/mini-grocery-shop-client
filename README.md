@@ -1,3 +1,6 @@
+
+![MINI GROCERY SHO](https://user-images.githubusercontent.com/75713983/116688231-3577b600-a9d8-11eb-9ad4-04cc1e277403.png)
+
 "MINI GROCERY SHOP"
  
 Live : https://mini-grocery-shop.web.app
@@ -9,3 +12,20 @@ Live : https://mini-grocery-shop.web.app
 ==> You have to have a account in order to buy any products.
 
 ==> Here also have user and admin login.
+
+
+**Front-end Thechnology :**
+React.js
+Bootstrap 5
+HTML 5
+CSS3
+
+**Backend Technology:**
+Node.js
+Express.js
+MongoDB
+Firebase Athuentication
+
+**Hosting:**
+Heroku
+
